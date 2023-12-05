@@ -1,10 +1,4 @@
 
-#!/usr/bin/env python3
-#AUTHOR:anqixiang
-#DATE:2020-01-28
-#MODIFY:
-#FUNCTION:计算的文件的MD5值
-
 import sys
 import os
 import hashlib
