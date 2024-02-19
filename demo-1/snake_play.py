@@ -1,6 +1,6 @@
 import turtle
 
-from entity.beans import*
+from entity.beans import *
 
 running = True
 the_snake = Snake()
@@ -10,6 +10,7 @@ def change_dir_u():
     global the_snake
     the_snake.change_dir(Snake.UP)
     pass
+
 
 def change_dir_d():
     the_snake.change_dir(Snake.DOWN)
@@ -44,7 +45,6 @@ def toggle():
     pass
 
 
-
 def start_snake():
     turtle.hideturtle()
     the_snake.draw()
@@ -65,8 +65,6 @@ def start_snake():
     pass
 
 
-
 if __name__ == "__main__":
     start_snake()
     pass
-
